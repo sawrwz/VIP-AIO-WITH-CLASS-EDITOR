@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="comm">
+      <UniqueIdentifier>{d1bc626b-5ba6-4c46-97f8-6279b6246feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper">
+      <UniqueIdentifier>{1d2a6483-3879-4f58-9650-b338166f00c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hijack">
+      <UniqueIdentifier>{ad05429a-def3-4ac9-a800-6a2697157f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mapping">
+      <UniqueIdentifier>{3b151c01-b47f-499a-970c-c27fbf3a9161}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="comm.cpp">
+      <Filter>comm</Filter>
+    </ClCompile>
+    <ClCompile Include="hijack.cpp">
+      <Filter>hijack</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="comm.h">
+      <Filter>comm</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="hijack.h">
+      <Filter>hijack</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+</Project>
